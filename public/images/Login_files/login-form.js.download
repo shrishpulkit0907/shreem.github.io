@@ -1,0 +1,16 @@
+
+    // Define validation rules
+    var loginFormRules = {
+        'email': {
+            'required': true,
+            'message': 'Please enter a valid email address'
+        },
+        'password': {
+            'required': true,
+            'message': 'Please enter your password'
+        }
+    };
+    $(document).ready(function() {
+    // Apply validation to login form
+    $('#loginform').validateForm(loginFormRules);
+    });

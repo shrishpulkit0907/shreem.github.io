@@ -1,0 +1,95 @@
+
+@media only screen and (min-width: 260px) and (max-width: 690px) {
+header{padding:00px !important;}
+header nav {padding:0 30px !important;}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.navbar-nav .nav-item{background: #ccc;border-bottom: solid 1px #ddd;padding: 0 15px;}
+.nav-link {
+    font: 700 14px / 24px "Fira Sans", Helvetica, Arial, sans-serif;
+    color: #000 !important;
+    background: transparent;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    transition: color .3s;
+    line-height: 20px;
+    padding: 8px 12px;
+}
+
+.carousel-item {height: 250px;}
+.hero h1{padding: 0;}
+
+.serviceitemi .content {
+    min-height: 490px;
+    background-position: center;
+    position: relative;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 31px 28px;
+}
+
+.heading3 {
+    display: inline-block;
+    position: relative;
+    line-height: 135%;
+    padding: 0 0 10px;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Fira Sans";
+    color: #4d4d4d;
+}
+.heading2 {font-size: 20px;}
+.heading3 {font-size: 31px;}
+.heading4 {font-size: 18px;}
+.heading7{font-size: 25px;}
+.officegrid .row .col-lg-4:nth-child(n) .item,
+.officegrid .row .col-lg-4:last-child .item,
+.officegrid .row .col-lg-3:nth-child(n) .item,
+ .officegrid .row .col-lg-3:last-child .item .officegrid .row .col-lg-6:nth-child(n) .item,
+  .officegrid .row .col-lg-6:nth-child(n) .item, .officegrid .row .col-lg-6:last-child .item
+{
+    border-right: 1px solid #d9d9d9;
+}
+.carousel-item .carousel-caption h1{font-size:18px;}
+
+
+/* /NEW/ */
+.content h3{font-size: var(--fs-30) !important;}
+.content p{font-size: var(--fs-16) !important;}
+.button1,.button2,.button3,.button4,.button5,.button6{font-size:var(--fs-14);display: inline-block;margin: 7px;}
+.owl-carousel .owl-dots{display: none !important;}
+#vision{border-radius:30px;padding:20px 0;}
+#vision .inner{padding: 0;border: none;}
+#vision .inner i{font-size: var(--fs-34);}
+.fs36{font-size: var(--fs-30);}
+.fs34{font-size: var(--fs-24);}
+.fs32{font-size: var(--fs-26);}
+.fs44{font-size: var(--fs-28);}
+.fs18{font-size: var(--fs-16);}
+.fs16{font-size: var(--fs-16);}
+#whatwedo .inner .card{margin: 15px 0;}
+#whomdoweworkfor .row .card{margin: 15px 0;}
+#solution .row{margin: 15px 0;}
+#solution .row .count,#solution .row span{font-size: var(--fs-44);}
+#boxblock,#accordionimgbox{display: none;}
+#whatwehaveachieved .row .col-lg-4 img{margin: 10px 0;border-radius: 10px;}
+#why .inner .card{margin: 10px 0;}
+#solution .row .card{margin: 10px 0;}
+.hero2::after{content: none;}
+.process ul::after{content: none;}
+.process ul li span{width: 100%;padding:10px 0;}
+#whychooseus .col-lg-7 .col-12{padding:20px !important;}
+#whychooseus .col-lg-5 .inner{margin:10px 0 !important;}
+.form-group{margin:10px 0;}
+/* /NEW/ */
+}
